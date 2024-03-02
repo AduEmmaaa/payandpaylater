@@ -152,3 +152,58 @@
     opacity: 1;
   }
 }
+#head2 #icona {
+  display: none;
+}
+
+#dropdown {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 999;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+#dropdown .donateApply {
+  margin-bottom: 20px;
+}
+
+#dropdown #list {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* CSS for devices with a maximum width of 414 pixels */
+@media (max-width: 414px) {
+  /* Your CSS rules here */
+  #head {
+    font-size: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #dropdown .donateApply {
+    display: block;
+  }
+  .donateApply {
+    display: none;
+  }
+  #list {
+    display: none;
+  }
+  #head2 #icona {
+    display: block;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+  }
+  #head2 #icona:hover {
+    background-color: #223094;
+    cursor: pointer;
+    color: #fff;
+  }
+}
