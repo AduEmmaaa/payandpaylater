@@ -2,6 +2,9 @@ const btn1 = document.getElementById("icona");
 const card = document.getElementById("dropdown");
 
 btn1.addEventListener("click", () => {
-  card.style.display = "block";
-  console.log("hello world");
+  if (card.style.display === "block") {
+    card.style.display = "none";
+  } else {
+    card.style.display = "block";
+  }
 });
