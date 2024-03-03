@@ -51,6 +51,14 @@
   padding-right: 60px;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5), 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
+#head2 img {
+  /* height: 4rem; */
+  width: 2rem;
+  border-radius: 24px;
+}
+
+#head2 a {
+}
 
 #list {
   display: flex;
@@ -174,6 +182,21 @@
 #dropdown #list {
   display: block;
   margin-bottom: 20px;
+}
+
+.afterlandpage {
+  text-align: left;
+  padding: 30px 60px;
+}
+
+.afterlandpage h2 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.afterlandpage hr {
+  margin-bottom: 20px;
+  width: 4;
 }
 
 /* CSS for devices with a maximum width of 414 pixels */
