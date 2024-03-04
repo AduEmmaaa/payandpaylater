@@ -39,7 +39,8 @@
 }
 
 #head2 {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 999;
   width: 100%;
   height: 4rem;
@@ -214,7 +215,7 @@
   border-radius: 15px;
   margin-right: 5px;
   color: #fff;
-  background-color: #000;
+  background-color: #223094;
 }
 .icoh1card {
   background-color: #faf3d1;
@@ -320,6 +321,9 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+  }
+  .icoh1card {
+    padding: 10px 10px;
   }
 }
