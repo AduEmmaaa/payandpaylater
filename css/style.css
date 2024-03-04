@@ -176,6 +176,8 @@
   padding: 10px;
   box-sizing: border-box;
   display: none;
+  position: sticky;
+  top: 4rem;
 }
 #dropdown .donateApply {
   margin-bottom: 20px;
