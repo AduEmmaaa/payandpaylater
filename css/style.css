@@ -316,4 +316,10 @@
   .logoimg img {
     margin-right: 28px;
   }
+  #afterlandpage {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+  }
 }
