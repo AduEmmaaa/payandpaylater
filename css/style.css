@@ -185,7 +185,7 @@
   margin-bottom: 20px;
 }
 
-.afterlandpage {
+#afterlandpage {
   text-align: left;
   padding-left: 100px;
   padding-right: 100px;
@@ -193,12 +193,12 @@
   padding-bottom: 50px;
 }
 
-.afterlandpage h2 {
+#afterlandpage h2 {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
 }
-.afterlandpage hr {
+#afterlandpage hr {
   margin-bottom: 20px;
   width: 4;
 }
